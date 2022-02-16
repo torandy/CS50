@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: It sorted the sorted50000 the fastest since it has best case Ω(n) (fastest of the 3 sorts)
+
+sort2 uses: Merge sort
+
+How do you know?: Sorted random50000 the fastest amonst the rest since it has worst case O(n log n) (faster than Bubble and Selection sort)
+
+sort3 uses: Selection sort
+
+How do you know?: It is the only remaining option, but we know that it has a best case of Ω(n²) which is slower than Bubble sort
