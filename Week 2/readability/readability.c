@@ -4,6 +4,8 @@
 #include <ctype.h>
 #include <math.h>
 
+// Input some text, program determines the grade level based on Coleman-Liau Index formula
+
 int count_letters(string text);
 int count_words(string text);
 int count_sentences(string text);
