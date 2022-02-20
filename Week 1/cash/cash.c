@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <math.h>
 
+// Inputs for cents and calculates the least amount of each coin that should be returned
+
 int get_cents(void);
 int calculate_quarters(int cents);
 int calculate_dimes(int cents);
