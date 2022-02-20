@@ -3,6 +3,8 @@
 #include <string.h>
 #include <math.h>
 
+// A program that runs a runoff election based on input candidates and # of voters
+
 // Max voters and candidates
 #define MAX_VOTERS 100
 #define MAX_CANDIDATES 9
