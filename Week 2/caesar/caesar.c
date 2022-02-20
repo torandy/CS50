@@ -4,6 +4,8 @@
 #include <ctype.h>
 #include <stdlib.h>
 
+// Input the key and this program encrypts the message using Caesar’s cipher
+
 bool only_digits(string cliArgument);
 char rotate(char c, int n);
 
