@@ -1,8 +1,7 @@
+// A program that runs a plurality election based on # of voters and candidates
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
-
-// A program that runs a plurality election based on # of voters and candidates
 
 // Max number of candidates
 #define MAX 9
