@@ -1,10 +1,9 @@
+// Input some text, program determines the grade level based on Coleman-Liau Index formula
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 #include <math.h>
-
-// Input some text, program determines the grade level based on Coleman-Liau Index formula
 
 int count_letters(string text);
 int count_words(string text);
