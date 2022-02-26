@@ -1,9 +1,8 @@
+// A program that runs a runoff election based on input candidates and # of voters
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-
-// A program that runs a runoff election based on input candidates and # of voters
 
 // Max voters and candidates
 #define MAX_VOTERS 100
