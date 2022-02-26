@@ -1,7 +1,6 @@
+// Input height and returns reverse blocks of incrementing # based on inputted height
 #include <cs50.h>
 #include <stdio.h>
-
-// Input height and returns reverse blocks of incrementing # based on inputted height
 
 int main(void)
 {
