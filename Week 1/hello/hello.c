@@ -1,7 +1,6 @@
+// Input name and returns a hello with name
 #include <cs50.h>
 #include <stdio.h>
-
-// Input name and returns a hello with name
 
 int main(void)
 {
