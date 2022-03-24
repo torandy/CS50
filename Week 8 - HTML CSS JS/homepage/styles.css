@@ -1,0 +1,199 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box; /* takes into account padding for all sizes */
+  font-family: cursive;
+  color: rgb(199, 190, 190);
+}
+body,
+html {
+  background-color: black;
+  height: 100%;
+  margin: 0;
+}
+
+/* GENERAL */
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image-right {
+  display: block;
+  margin-left: auto;
+}
+.image-left {
+  display: block;
+  margin-right: auto;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.margin-auto {
+  margin: auto;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+/* HEADER */
+.top-header {
+  background-image: url(Photos/db.jpg);
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-bottom: 10px;
+}
+.nav li {
+  display: inline;
+}
+.nav a {
+  display: inline-block; /* Adds padding to an inline elemnt */
+  padding: 1.5em; /* Space out wording */
+  color: white;
+  text-decoration: none; /* Removes underline in link */
+}
+.nav a:hover {
+  background-color: rgb(85, 85, 85, 0.3); /* transparency of .3*/
+}
+.main-nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 150%;
+  font-weight: lighter;
+}
+#header-name {
+  text-align: center;
+  margin: 0;
+  font-size: 5em;
+  font-family: "Brush Script MT";
+}
+
+/* FOOTER */
+#footer-name {
+  margin: 0;
+  font-size: 3em;
+  font-family: "Brush Script MT";
+  display: flex;
+  align-items: center;
+}
+.main-footer {
+  background-color: rgb(56, 56, 56);
+  padding: 0.25em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.main-footer-container {
+  display: flex;
+  align-items: stretch;
+  padding: 1em;
+}
+.footer-nav {
+  margin: auto;
+  overflow: hidden;
+  height: 50px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: right;
+}
+.footer-nav li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em;
+}
+.footer-nav a {
+  text-decoration: none;
+}
+.footer-nav img:hover {
+  transform: scale(1.3); /* Makes the icon expand when hovering over it */
+}
+.footer-nav img {
+  width: 30px;
+  height: 30px;
+}
+
+/* INDEX PAGE */
+.index-image {
+  width: 60%;
+  height: 60%;
+  border: 5px solid white;
+}
+
+/* ABOUT PAGE */
+.about-paragraph {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: large;
+}
+.about-span {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  padding: 5px 10px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  border: 0;
+}
+.flex iframe {
+  border: 0;
+}
+.flex-direction-reverse {
+  flex-direction: row-reverse;
+}
+.mixed-blend {
+  mix-blend-mode: difference;
+}
+
+/* HOBBIES PAGE */
+.hobbies-row {
+  border-bottom: 1px solid white;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+.hobbies-row:first-child {
+  /* This means it's applied to the very first child */
+  padding-top: 20px;
+}
+.hobbies-row:last-child {
+  /* This means it's applied to the very last child */
+  border-bottom: none;
+}
+.hobby-item {
+  display: flex;
+  align-items: center;
+  padding-right: 2em;
+  font-size: large;
+  color: rgb(83, 183, 187);
+}
+.hobby-image {
+  display: flex;
+  align-items: center;
+  padding-right: 2em;
+}
+.hobby-image img {
+  height: 100px;
+  width: 200px;
+}
+.hobby-link {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
