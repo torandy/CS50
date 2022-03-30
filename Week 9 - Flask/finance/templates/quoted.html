@@ -1,0 +1,18 @@
+{% extends "layout.html" %} {% block title %} Log In {% endblock %} {% block
+main %}
+<h1>Quoted Stock</h1>
+<table class="center">
+  <thead>
+    <tr>
+      <th style="padding: 20px">Stock Name</th>
+      <th style="padding: 20px">Share Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ quotedData["name"] }}</td>
+      <td>{{ quotedData["price"] }}</td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}
